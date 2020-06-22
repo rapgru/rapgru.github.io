@@ -6,5 +6,6 @@
 
 module.exports = {
   siteName: 'Gridsome',
+  siteUrl: 'https://rapgru.com',
   plugins: []
 }
