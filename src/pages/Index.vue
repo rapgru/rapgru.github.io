@@ -64,4 +64,8 @@ export default {
   transform: translatey(0px);
 	animation: float 4s ease-in-out infinite;
 }
+
+body {
+  min-height: -webkit-fill-available;
+}
 </style>
