@@ -5,7 +5,11 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'The Raphael Gruber Web Presence',
   siteUrl: 'https://rapgru.com',
-  plugins: []
+  plugins: [
+    {
+      use: 'gridsome-plugin-tailwindcss'
+    }
+  ]
 }
