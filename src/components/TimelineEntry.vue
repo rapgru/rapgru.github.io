@@ -8,7 +8,7 @@
           <div class="w-1/2 bg-morange-secondary mb-3" style="height:1px;"></div>
           <h2 class="sm:hidden text-base mb-3 text-gray-600 font-normal">{{from}} &ndash; {{ to }}</h2>
         </div>
-        <a :href="link | '#'" v-if="image"><g-image :alt="this.school" :src="this.setImage" class="w-48 px-3 py-5 mx-auto hidden sm:block"/></a> <!-- w-64 -->
+        <a :href="link | '#'" v-if="image"><g-image :alt="this.school" :src="this.setImage" class="w-48 px-3 py-5 mx-auto hidden sm:block"/></a>
       </div>
 
       <slot></slot>
