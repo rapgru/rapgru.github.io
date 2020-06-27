@@ -22,9 +22,9 @@ export default {
   @apply absolute;
   @apply bg-morange-secondary;
 
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), #ffe5be 8%, #ffe5be 92%,rgba(0, 0, 0, 0));
-  background-image: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0), #ffe5be 8%, #ffe5be 92%,rgba(0, 0, 0, 0));
-  background-image: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0), #ffe5be 8%, #ffe5be 92%,rgba(0, 0, 0, 0));
+  background-image: linear-gradient(0deg, rgba(255, 229, 190, 0), #ffe5be 8%, #ffe5be 92%,rgba(255, 229, 190, 0));
+  background-image: -webkit-linear-gradient(0deg, rgba(255, 229, 190, 0), #ffe5be 8%, #ffe5be 92%,rgba(255, 229, 190, 0));
+  background-image: -moz-linear-gradient(0deg, rgba(255, 229, 190, 0), #ffe5be 8%, #ffe5be 92%,rgba(255, 229, 190, 0));
 }
 
 .tl_item::after {
