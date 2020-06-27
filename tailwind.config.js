@@ -1,14 +1,24 @@
 module.exports = {
   purge: [],
   theme: {
-    colors: {
-      orange: {
-        primary: '#ffc56e',
-        secondary: '#ffe5be'
+    extend: {
+      colors: {
+        morange: {
+          primary: '#ffc56e',
+          secondary: '#ffe5be'
+        },
+        background: "#fbfaf8"
+      },
+      borderRadius: {
+        'xl': '30px'
+      },
+      height: {
+        'alfull': '99%'
       }
     },
-    extend: {},
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require("tailwind-percentage-heights-plugin")()
+  ],
 }
