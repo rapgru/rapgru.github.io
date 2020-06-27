@@ -20,8 +20,11 @@ export default {
   @apply w-2;
   @apply h-full;
   @apply absolute;
+  @apply bg-morange-secondary;
 
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), #ffe5be 8%, #ffe5be 92%,rgba(0, 0, 0, 0));
+  background-image: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0), #ffe5be 8%, #ffe5be 92%,rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0), #ffe5be 8%, #ffe5be 92%,rgba(0, 0, 0, 0));
 }
 
 .tl_item::after {
