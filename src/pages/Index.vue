@@ -1,6 +1,6 @@
 <template>
-  <div class="w-screen my-0 px-5 font-sans leading-tight">
-    <div class="flex flex-row flex-wrap items-center justify-center content-center h-screen sm:h-auto">
+  <div class="w-screen my-0 px-5 font-sans leading-tight h-full">
+    <div class="flex flex-row flex-wrap items-center justify-center content-center h-full sm:h-auto">
       <g-image alt="Portrait" src="~/img/photo_test_2.svg" class="w-64 sm:py-10" /> <!-- w-64 -->
 
       <div class="px-8 pt-10 sm:pt-0">
@@ -27,15 +27,26 @@
     </div>
     
     <!-- <button class="fixed right-0 bottom-0 bg-orange-primary w-20 h-6 rounded-full mb-8 mr-8 leading normal">Blog</button> -->
-    <!-- <h1 class="text-xl mt-20"><g-image alt="Portrait" src="~/img/round_thingy_flat.svg" class="w-3 inline mr-2"/>Education</h1>
+    <!--<h1 class="text-xl mt-20"><g-image alt="Portrait" src="~/img/round_thingy_flat.svg" class="w-3 inline mr-2"/>Education</h1>
     <ul>
       <li>A</li>
       <li>B</li>
       <li>C</li>
       <li>D</li>
       <li>E</li>
+      <li>E</li>
+      <li>E</li>
+      <li>E</li>
+      <li>E</li>
+      <li>E</li>
+      <li>E</li>
+      <li>E</li>
+      <li>E</li>
+      <li>E</li>
+      <li>E</li>
+      <li>E</li>
     </ul>
-    <h1 class="text-xl"><g-image alt="Portrait" src="~/img/round_thingy_flat.svg" class="w-3 inline mr-2"/>Work Experiences</h1> -->
+    <h1 class="text-xl"><g-image alt="Portrait" src="~/img/round_thingy_flat.svg" class="w-3 inline mr-2"/>Work Experiences</h1>-->
   </div>
 </template>
 
@@ -65,12 +76,5 @@ export default {
 	animation: float 4s ease-in-out infinite;
 }
 
-body {
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
-}
-
-html {
-  min-height: -webkit-fill-available;
-}
+html, body { height: 100%;}
 </style>
