@@ -25,30 +25,6 @@
           <a href="#work"><font-awesome :icon="['fas', 'chevron-down']"/></a>
       </div>
     </div>
-    
-    <!-- <button class="fixed right-0 bottom-0 bg-orange-primary w-20 h-6 rounded-full mb-8 mr-8 leading normal">Blog</button> -->
-    <!--<h1 class="text-xl mt-20"><g-image alt="Portrait" src="~/img/round_thingy_flat.svg" class="w-3 inline mr-2"/>Education</h1>
-    <ul>
-      <li>A</li>
-      <li>B</li>
-      <li>C</li>
-      <li>D</li>
-      <li>E</li>
-      <li>E</li>
-      <li>E</li>
-      <li>E</li>
-      <li>E</li>
-      <li>E</li>
-      <li>E</li>
-      <li>E</li>
-      <li>E</li>
-      <li>E</li>
-      <li>E</li>
-      <li>E</li>
-    </ul>
-    <h1 class="text-xl"><g-image alt="Portrait" src="~/img/round_thingy_flat.svg" class="w-3 inline mr-2"/>Work Experiences</h1>-->
-
-    
 
     <div class="px-5 sm:px-10 md:px-20 lg:px-30 mb-10">
       <a id="work"></a>
