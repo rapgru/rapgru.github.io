@@ -1,6 +1,6 @@
 <template>
   <div class="w-full my-0 font-sans leading-tight h-full p-4 sm:p-0"> 
-    <div class="flex flex-row flex-wrap items-center justify-center content-center h-full sm:h-auto rounded-xl sm:rounded-rounded-none sm:shadow-none bg-white shadow-md font-normal">
+    <div class="flex flex-row flex-wrap items-center justify-center content-center h-full sm:h-auto rounded-xl sm:rounded-none sm:shadow-none bg-white shadow-md font-normal">
       <g-image alt="Portrait" src="~/img/photo_test_2.svg" class="h-2/5 sm:h-auto sm:w-1/3 sm:py-10" style="max-width: 370px"/>
 
       <div class="px-8 pt-10 sm:pt-0">
@@ -26,67 +26,75 @@
       </div>
     </div>
 
-    <div class="px-5 sm:px-10 md:px-20 lg:px-30 mb-10">
+    <div class="px-5 sm:px-10 md:px-20 lg:px-48 mb-10">
       <a id="work"></a>
       <h1 class="h1 text-center mb-3">About me</h1>
 
       <p class="text-center ">
-        I'm a young student and very passionate about 
-        <span class="text-xl">&#x1F4BB;</span> and 
-        <span class="text-xl">&#128693;</span>.
+        I'm a young student and very passionate about computers 
+        <span class="text-2xl">&#x1F4BB;</span> and mountainbiking
+        <span class="text-2xl">&#128693;</span>.
 
         <!--Feel free to check out my <a class="text-blue-400" href="/blog">blog</a>-->
       </p>
+    </div>
+    <div class="px-5 sm:px-10 md:px-20 lg:px-48 mb-10">
 
-      <h1 class="h1 text-center">Work experiences</h1>
-
-      <Timeline class="mt-5 mx-auto max-w-3xl">
-        <TimelineEntry link="https://viridiansoftware.com" image="viridian-software.png" from="02/09/2019" to="27/09/2019" school="Viridian Software Ltd., Dublin" title="Software Developer">
-          <p class="text-base">
-            Viridian Software is a indie game studio based in Dublin, Ireland. I feel very 
-            grateful to having had the chance of completed an Erasmus+ internship in this company. 
-            During my time in Ireland, I greatly improved my software engineering skills by working 
-            on a real project and made many pleasurable ever-lasting memories.
-          </p>
-        </TimelineEntry>
-        <TimelineEntry link="https://www.frequentis.com" image="frequentis.jpg" from="03/07/2017" to="01/08/2017" school="Frequentis AG, Vienna" title="Temporary Trainee">
-          <p class="text-base">
-            Frequentis is an Austrian high-tech company that develops 
-            communication and information systems in fields such as 
-            air traffic management and public safety & transport.
-          </p>
-        </TimelineEntry>
-        <TimelineEntry link="https://www.frequentis.com" image="frequentis.jpg" from="03/07/2017" to="01/08/2017" school="Frequentis AG, Vienna" title="Temporary Trainee">
-
-        </TimelineEntry>
-        <TimelineEntry link="https://www.frequentis.com" image="frequentis.jpg" from="03/07/2017" to="01/08/2017" school="Frequentis AG" title="Software Tester">
-
-        </TimelineEntry>
-      </Timeline>
-      <h1 class="h1 text-center">Education</h1>
-      <Timeline class="mt-5 mx-auto max-w-3xl">
-        <TimelineEntry link="http://www.sz-ybbs.ac.at/~sz-ybbs/news/aktuell/" from="2016" to="today" school="IT-HTL Ybbs" title="secondary school">
-          <p class="text-base">
-            An HTL is a secondary education school that permits students to acquire the university 
-            entry qualification and professional training at the same time. The IT-HTL provides 
-            common knowledge as well as specialised skills in the field of information technology.
-          </p>
-          <h3 class="my-3 font-bold">Technical topics</h3>
-          <p>          
-            <ul class="list-disc list-inside">
-              <li>network engineering</li>
-              <li>software development</li>
-              <li>media technology</li>
-              <li>principles of</li>
-              <ul class="list-disc list-inside ml-4">
-                <li>operating systems</li>
-                <li>computer science</li>
-                <li>elecronic engineering</li>
-              </ul>
-            </ul>
-          </p>
-        </TimelineEntry>
-      </Timeline>
+      <div class="flex flex-row flex-wrap xl:flex-no-wrap align-start justify-center content-start">
+        <div>
+          <h1 class="h1 text-center">Work experiences</h1>
+          <ul class="mt-5 max-w-2xl">
+            <TimelineEntry link="https://viridiansoftware.com" image="viridian-software.png" from="02/09/2019" to="27/09/2019" school="Viridian Software Ltd., Dublin" title="Software Developer">
+              <p class="text-base">
+                Viridian Software is a indie game studio based in Dublin, Ireland. I feel very 
+                grateful to having had the chance of completed an Erasmus+ internship in this company. 
+                During my time in Ireland, I greatly improved my software engineering skills by working 
+                on a real project and made many pleasurable ever-lasting memories.
+              </p>
+            </TimelineEntry>
+            <TimelineEntry link="https://www.frequentis.com" image="frequentis.jpg" from="03/07/2017" to="01/08/2017" school="Frequentis AG, Vienna" title="Temporary Trainee">
+              <p class="text-base">
+                Frequentis is an Austrian high-tech company that develops 
+                communication and information systems in fields such as 
+                air traffic management and public safety & transport.
+              </p>
+            </TimelineEntry>
+            <TimelineEntry link="https://www.frequentis.com" image="frequentis.jpg" from="03/07/2017" to="01/08/2017" school="Frequentis AG, Vienna" title="Temporary Trainee">
+    
+            </TimelineEntry>
+            <TimelineEntry link="https://www.frequentis.com" image="frequentis.jpg" from="03/07/2017" to="01/08/2017" school="Frequentis AG" title="Software Tester">
+    
+            </TimelineEntry>
+          </ul>
+        </div>
+  
+        <div>
+          <h1 class="h1 text-center">Education</h1>
+          <ul class="mt-5 max-w-2xl">
+            <TimelineEntry link="http://www.sz-ybbs.ac.at/~sz-ybbs/news/aktuell/" from="2016" to="today" school="IT-HTL Ybbs" title="secondary school">
+              <p class="text-base">
+                An HTL is a secondary education school that permits students to acquire the university 
+                entry qualification and professional training at the same time. The IT-HTL provides 
+                common knowledge as well as specialised skills in the field of information technology.
+              </p>
+              <h3 class="my-3 font-bold">Technical topics</h3>
+              <p>          
+                <ul class="list-disc list-inside">
+                  <li>network engineering</li>
+                  <li>software development</li>
+                  <li>media technology</li>
+                  <li>principles of</li>
+                  <ul class="list-disc list-inside ml-4">
+                    <li>operating systems</li>
+                    <li>computer science</li>
+                    <li>elecronic engineering</li>
+                  </ul>
+                </ul>
+              </p>
+            </TimelineEntry>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -100,7 +108,6 @@ export default {
     title: 'Raphael Gruber'
   },
   components: {
-    Timeline,
     TimelineEntry
   }
 }

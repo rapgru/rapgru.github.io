@@ -1,19 +1,18 @@
 <template>
-  <li class="tl_item p-3 relative font-thin">
-    <div class="ml-4 sm:ml-8 p-5 bg-white relative shadow-md rounded-md">
+  <li class="p-3 md:px-10 font-thin">
+    <div class="p-5 sm:p-8 bg-white shadow-md rounded-md">
       <div class="flex flex-row flex-wrap justify-between items-center content-start">
         <div>
           <a :href="link | '#'"><h2 class="text-lg text-gray-600">{{school}}</h2></a>
           <h2 class="text-xl mb-2 font-normal">{{title}}</h2>
           <div class="w-1/2 bg-morange-secondary mb-3" style="height:1px;"></div>
-          <h2 class="sm:hidden text-base mb-3 text-gray-600 font-normal">{{from}} &ndash; {{ to }}</h2>
+          <h2 class="text-base mb-3 text-gray-600 font-normal">{{from}} &ndash; {{ to }}</h2>
         </div>
         <a :href="link | '#'" v-if="image"><g-image :alt="this.school" :src="this.setImage" class="w-48 px-3 py-5 mx-auto hidden sm:block"/></a>
       </div>
 
       <slot></slot>
     </div>
-    <span class="number text-right font-bold absolute text-sm hidden sm:block">{{ from }} &ndash; {{ to }}</span>
   </li>
 </template>
 

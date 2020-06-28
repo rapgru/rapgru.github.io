@@ -20,8 +20,7 @@ export default {
   @apply w-2;
   @apply h-full;
   @apply absolute;
-  @apply bg-morange-secondary;
-
+  
   background-image: linear-gradient(0deg, rgba(255, 229, 190, 0), #ffe5be 8%, #ffe5be 92%,rgba(255, 229, 190, 0));
   background-image: -webkit-linear-gradient(0deg, rgba(255, 229, 190, 0), #ffe5be 8%, #ffe5be 92%,rgba(255, 229, 190, 0));
   background-image: -moz-linear-gradient(0deg, rgba(255, 229, 190, 0), #ffe5be 8%, #ffe5be 92%,rgba(255, 229, 190, 0));
