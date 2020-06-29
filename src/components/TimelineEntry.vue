@@ -1,6 +1,6 @@
 <template>
   <li class="p-3 md:px-10 font-thin">
-    <div class="p-5 sm:p-8 bg-white shadow-md rounded-md">
+    <div class="p-5 sm:p-8 bg-white shadow-md sm:shadow-none rounded-md">
       <div class="flex flex-row flex-wrap justify-between items-center content-start">
         <div>
           <a :href="link | '#'"><h2 class="text-lg text-gray-600">{{school}}</h2></a>
