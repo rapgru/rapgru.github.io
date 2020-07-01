@@ -1,7 +1,7 @@
 <template>
   <div class="w-full my-0 font-sans leading-tight h-full p-4 sm:p-0"> 
     <div class="flex flex-row flex-wrap items-center justify-center content-center h-full sm:h-auto rounded-xl sm:rounded-none sm:shadow-none bg-white shadow-md font-normal">
-      <g-image alt="Portrait" src="~/img/photo_test_2.svg" class="h-2/5 sm:h-auto sm:w-1/3 sm:py-10" style="max-width: 370px"/>
+      <g-image alt="Portrait" src="~/img/portrait.svg" class="h-2/5 sm:h-auto sm:w-1/3 sm:py-10" style="max-width: 370px"/>
 
       <div class="px-8 pt-10 sm:pt-0">
         <p class="text-2xl">Hi, I'm</p>
