@@ -46,8 +46,8 @@
           <ul class="mt-5 max-w-2xl">
             <TimelineEntry link="https://viridiansoftware.com" image="viridian-software.png" from="02/09/2019" to="27/09/2019" school="Viridian Software Ltd., Dublin" title="Software Developer">
               <p class="text-base">
-                Viridian Software is a indie game studio based in Dublin, Ireland. I feel very 
-                grateful to having had the chance of completed an Erasmus+ internship in this company. 
+                Viridian Software is an indie game studio based in Dublin, Ireland. I feel very 
+                grateful for having had the chance of completing an Erasmus+ internship in this company. 
                 During my time in Ireland, I greatly improved my software engineering skills by working 
                 on a real project and made many pleasurable ever-lasting memories.
               </p>
@@ -87,7 +87,7 @@
                   <ul class="list-disc list-inside ml-4">
                     <li>operating systems</li>
                     <li>computer science</li>
-                    <li>elecronic engineering</li>
+                    <li>electronic engineering</li>
                   </ul>
                 </ul>
               </p>
