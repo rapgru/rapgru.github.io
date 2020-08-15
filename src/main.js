@@ -6,6 +6,8 @@ import { config, library } from '@fortawesome/fontawesome-svg-core'
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
+import 'typeface-nunito'
+import 'typeface-quicksand'
 
 import DefaultLayout from '~/layouts/Default.vue'
 
