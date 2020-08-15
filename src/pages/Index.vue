@@ -105,7 +105,7 @@ import TimelineEntry from '~/components/TimelineEntry.vue'
 
 export default {
   metaInfo: {
-    title: 'Raphael Gruber'
+    title: 'Home'
   },
   components: {
     TimelineEntry
