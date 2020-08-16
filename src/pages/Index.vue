@@ -31,9 +31,7 @@
       <h1 class="h1 text-center mb-3">About me</h1>
 
       <p class="text-center ">
-        I'm a young student and very passionate about computers 
-        <span class="text-2xl">&#x1F4BB;</span> and mountainbiking
-        <span class="text-2xl">&#128693;</span>.
+        I'm a young student and very passionate about computers and mountainbiking.
 
         <!--Feel free to check out my <a class="text-blue-400" href="/blog">blog</a>-->
       </p>
