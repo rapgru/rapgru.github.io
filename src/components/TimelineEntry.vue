@@ -1,14 +1,14 @@
 <template>
-  <li class="p-3 md:px-10 font-thin">
-    <div class="p-5 sm:p-8 bg-white shadow-md sm:shadow-none rounded-md">
-      <div class="flex flex-row flex-wrap justify-between items-center content-start">
+  <li class="p-3 md:px-10">
+    <div class="p-5 sm:p-8 bg-ctwhite shadow-md sm:shadow-none rounded-md text-black">
+      <div class="flex flex-row flex-wrap justify-between items-center content-start mb-4">
         <div>
-          <a :href="link | '#'"><h2 class="text-lg text-gray-600">{{school}}</h2></a>
-          <h2 class="text-xl mb-2 font-normal">{{title}}</h2>
-          <div class="w-1/2 bg-morange-secondary mb-3" style="height:1px;"></div>
-          <h2 class="text-base mb-3 text-gray-600 font-normal">{{from}} &ndash; {{ to }}</h2>
+          <a :href="link || '#'"><p class="text-lg text-gray-600">{{school}}</p></a>
+          <h2 class="mb-3 mt-1">{{title}}</h2>
+          <div class="w-1/2 bg-ctorange-primary mb-3" style="height:1px;"></div>
+          <p class="mb-3 text-gray-600">{{from}} &ndash; {{ until }}</p>
         </div>
-        <a :href="link | '#'" v-if="image"><g-image :alt="this.school" :src="this.setImage" class="w-48 px-3 py-5 mx-auto hidden sm:block"/></a>
+        <a :href="link || '#'" v-if="image"><g-image :alt="this.school" :src="this.setImage" class="w-48 px-3 py-5 mx-auto hidden sm:block"/></a>
       </div>
 
       <slot></slot>
@@ -18,21 +18,16 @@
 
 <script>
 export default {
-  name: "TimelineEntry",
-  props: ["from", "to", "title", "school", "image", "link"],
+  name: "timeline-entry",
+  props: ["from", "until", "title", "school", "image", "link"],
   computed: {
     setImage() {
-      return require("~/img/" + this.image);
+      return require("~/img/employers/" + this.image);
     }
   }
 }
 </script>
 
 <style>
-.number {
-  left: -100px;
-  width: 80px;
 
-	top: calc(50% - 26px);
-}
 </style>

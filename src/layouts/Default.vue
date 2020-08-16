@@ -1,25 +1,26 @@
 <template>
-  <div class="max-w-screen-md mx-auto my-0 px-5 font-sans">
-    <header class="flex justify-between items-center mb-5 h-20">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="ml-5" to="/">Home</g-link>
-        <g-link class="ml-5" to="/blog">Blog</g-link>
-      </nav>
-    </header>
-    <slot/>
+  <div>
+    <slot name="above"/>
+    <!-- <default-navbar/> -->
+    <div class="px-5 sm:px-10 md:px-20 lg:px-48 text-white">
+      <slot/>
+    </div>
+    <default-footer/>
   </div>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
+<script>
+import DefaultNavbar from '~/components/Navbar.vue'
+import DefaultFooter from '~/components/Footer.vue'
+
+export default {
+  name: 'default-layout',
+  components: {
+    DefaultNavbar,
+    DefaultFooter,
   }
 }
-</static-query>
+</script>
 
 <style>
 </style>

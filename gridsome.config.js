@@ -10,6 +10,20 @@ module.exports = {
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss'
-    }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "data/education/**/*.md",
+        typeName: "Education"
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "data/work-experiences/**/*.md",
+        typeName: "WorkExperience"
+      }
+    },
   ]
 }
