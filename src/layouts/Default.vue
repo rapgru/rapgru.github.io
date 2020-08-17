@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="h-full">
     <slot name="above"/>
     <!-- <default-navbar/> -->
     <div class="px-5 sm:px-10 md:px-20 lg:px-48 text-white">

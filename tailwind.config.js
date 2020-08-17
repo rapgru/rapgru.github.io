@@ -58,6 +58,9 @@ module.exports = {
           scrollBehavior: 'smooth',
           height: '100%',
         },
+        'html': {
+          height: '100%',
+        },
       })
     }),
     plugin(function({ addComponents, config }) {

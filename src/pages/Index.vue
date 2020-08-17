@@ -49,10 +49,10 @@
       </div>
 
       <template slot="above">
-          <vue100vh class="sm:hidden" :css="{height: '100rvh'}">
+          <!--<vue100vh class="sm:hidden" :css="{height: '100rvh'}">
             <welcome-block/>
-          </vue100vh>
-          <welcome-block class="hidden sm:block"/>
+          </vue100vh>-->
+          <welcome-block/>
           <div class="w-full bg-ctblue h-1 hidden sm:block"></div>
       </template>
   </default-layout>
