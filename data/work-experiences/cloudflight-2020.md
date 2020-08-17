@@ -2,7 +2,7 @@
 link: "https://www.cloudflight.io"
 image: "cloudflight.svg"
 from: 2020-08-03
-until: 2020-08-28
+until: 2020-08-31
 employer: "Cloudflight Austria GmbH, Linz"
 job: "Software Developer"
 ---
