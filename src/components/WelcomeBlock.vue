@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full my-0 p-4 sm:p-0 h-fullvh sm:h-auto text-black" style="height: -webkit-fill-available">
+    <div class="w-full my-0 p-4 sm:p-0 h-full sm:h-auto text-black" style="height: -webkit-fill-available">
       <div class="flex flex-row flex-wrap items-center justify-center content-center h-full sm:h-auto rounded-xl sm:rounded-none sm:shadow-none bg-ctwhite shadow-md font-normal">
         <g-image alt="Portrait" src="~/img/portrait.svg" class="h-2/5 sm:h-auto sm:w-1/3 sm:py-10" style="max-width: 370px"/>
   
